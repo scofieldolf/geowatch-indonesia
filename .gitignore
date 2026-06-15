@@ -40,3 +40,5 @@ test-cheerio.js
 test-fetch.js
 response.html
 
+
+.vercel
