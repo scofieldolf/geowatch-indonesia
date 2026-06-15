@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Inter, Newsreader } from 'next/font/google';
+import { Inter, Lora } from 'next/font/google';
 import './globals.css';
 
 const inter = Inter({
@@ -8,9 +8,9 @@ const inter = Inter({
   display: 'swap',
 });
 
-const newsreader = Newsreader({
+const lora = Lora({
   subsets: ['latin'],
-  variable: '--font-newsreader',
+  variable: '--font-lora',
   style: ['normal', 'italic'],
   display: 'swap',
 });
@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="id" className="dark">
       <body
-        className={`${inter.variable} ${newsreader.variable} antialiased bg-slate-950 text-slate-100 font-sans`}
+        className={`${inter.variable} ${lora.variable} antialiased bg-slate-950 text-slate-100 font-serif`}
       >
         {children}
       </body>
