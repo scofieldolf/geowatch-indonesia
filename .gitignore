@@ -34,3 +34,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local test scripts & html dumps
+test-cheerio.js
+test-fetch.js
+response.html
+

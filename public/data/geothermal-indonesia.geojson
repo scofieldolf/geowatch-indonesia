@@ -1,0 +1,269 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GEO-001",
+        "name": "Kamojang Geothermal Field",
+        "province": "Jawa Barat",
+        "potentialMW": 235,
+        "status": "eksploitasi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [107.75, -7.15],
+            [107.82, -7.15],
+            [107.82, -7.10],
+            [107.75, -7.10],
+            [107.75, -7.15]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GEO-002",
+        "name": "Gunung Salak Geothermal",
+        "province": "Jawa Barat",
+        "potentialMW": 377,
+        "status": "eksploitasi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.68, -6.83],
+            [106.77, -6.83],
+            [106.77, -6.74],
+            [106.68, -6.74],
+            [106.68, -6.83]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GEO-003",
+        "name": "Sarulla Geothermal Field",
+        "province": "Sumatera Utara",
+        "potentialMW": 330,
+        "status": "eksploitasi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [99.00, 2.00],
+            [99.10, 2.00],
+            [99.10, 2.10],
+            [99.00, 2.10],
+            [99.00, 2.00]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GEO-004",
+        "name": "Darajat Geothermal Field",
+        "province": "Jawa Barat",
+        "potentialMW": 270,
+        "status": "eksploitasi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [107.69, -7.25],
+            [107.75, -7.25],
+            [107.75, -7.19],
+            [107.69, -7.19],
+            [107.69, -7.25]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GEO-005",
+        "name": "Dieng Geothermal Field",
+        "province": "Jawa Tengah",
+        "potentialMW": 60,
+        "status": "eksploitasi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [109.87, -7.24],
+            [109.95, -7.24],
+            [109.95, -7.17],
+            [109.87, -7.17],
+            [109.87, -7.24]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GEO-006",
+        "name": "Ulubelu Geothermal Field",
+        "province": "Lampung",
+        "potentialMW": 220,
+        "status": "eksploitasi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [104.55, -5.35],
+            [104.65, -5.35],
+            [104.65, -5.25],
+            [104.55, -5.25],
+            [104.55, -5.35]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GEO-007",
+        "name": "Wayang Windu Geothermal",
+        "province": "Jawa Barat",
+        "potentialMW": 227,
+        "status": "eksploitasi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [107.60, -7.24],
+            [107.67, -7.24],
+            [107.67, -7.17],
+            [107.60, -7.17],
+            [107.60, -7.24]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GEO-008",
+        "name": "Lahendong Geothermal",
+        "province": "Sulawesi Utara",
+        "potentialMW": 120,
+        "status": "eksploitasi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.79, 1.25],
+            [124.85, 1.25],
+            [124.85, 1.32],
+            [124.79, 1.32],
+            [124.79, 1.25]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GEO-009",
+        "name": "Ijen Geothermal Field",
+        "province": "Jawa Timur",
+        "potentialMW": 110,
+        "status": "eksplorasi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [114.20, -8.10],
+            [114.28, -8.10],
+            [114.28, -8.02],
+            [114.20, -8.02],
+            [114.20, -8.10]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GEO-010",
+        "name": "Kotamobagu Geothermal",
+        "province": "Sulawesi Utara",
+        "potentialMW": 80,
+        "status": "eksplorasi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [124.35, 0.70],
+            [124.42, 0.70],
+            [124.42, 0.78],
+            [124.35, 0.78],
+            [124.35, 0.70]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GEO-011",
+        "name": "Baturaden Geothermal Area",
+        "province": "Jawa Tengah",
+        "potentialMW": 220,
+        "status": "eksplorasi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [109.18, -7.33],
+            [109.25, -7.33],
+            [109.25, -7.26],
+            [109.18, -7.26],
+            [109.18, -7.33]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "GEO-012",
+        "name": "Sembalun Geothermal",
+        "province": "Nusa Tenggara Barat",
+        "potentialMW": 20,
+        "status": "potensial"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [116.50, -8.38],
+            [116.56, -8.38],
+            [116.56, -8.32],
+            [116.50, -8.32],
+            [116.50, -8.38]
+          ]
+        ]
+      }
+    }
+  ]
+}
