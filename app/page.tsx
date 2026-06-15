@@ -4,6 +4,7 @@ import { useVolcanoes } from '@/hooks/useVolcanoes';
 import { MapContainer } from '@/components/Map/MapContainer';
 import { useMapStore } from '@/store/mapStore';
 import { LEVEL_CONFIG, VolcanoLevel } from '@/lib/types';
+import { LayerToggle } from '@/components/Dashboard/LayerToggle';
 
 export default function Home() {
   const { volcanoes, isLoading, refresh } = useVolcanoes();
@@ -37,8 +38,9 @@ export default function Home() {
           </p>
         </div>
 
-        {/* Sync Controls */}
-        <div className="flex items-center gap-3">
+        {/* Sync Controls & Layer Toggle */}
+        <div className="flex flex-wrap items-center gap-3">
+          <LayerToggle />
           <button
             onClick={() => refresh()}
             disabled={isLoading}

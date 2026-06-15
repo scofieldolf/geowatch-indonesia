@@ -4,6 +4,7 @@ import { MapContainer, TileLayer } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { VolcanoGrid } from './VolcanoGrid';
+import { GeothermalLayer } from './GeothermalLayer';
 import { MapLegend } from './MapLegend';
 import { useEffect } from 'react';
 import { useVolcanoes } from '@/hooks/useVolcanoes';
@@ -42,6 +43,7 @@ export default function MapInner() {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <VolcanoGrid volcanoes={volcanoes} />
+        <GeothermalLayer />
         <MapLegend />
       </MapContainer>
 
